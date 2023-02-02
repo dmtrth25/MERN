@@ -1,0 +1,40 @@
+.root {
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 30px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: #4945bb;
+  color: #fff;
+  font-weight: 800;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+  border: 2px solid #3e3e3e;
+  border-radius: 5px;
+  align-self: flex-start;
+  
+  padding: 0 10px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #4261ee;
+  }
+}
+
+.buttons {
+  button {
+    margin-left: 8px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
